@@ -53,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
         String n = name.getText().toString();
         int a = Integer.valueOf(age.getText().toString());
         String add = address.getText().toString();
-        String t=test.getText().toString();
+        String t = test.getText().toString();
         switch (view.getId()) {
             case R.id.insert:
-                Info info = new Info(null, n, a, add,t);
+                Info info = new Info(null, n, a, add, t);
                 DBManager.insert(info);
                 break;
             case R.id.delete:
@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
                     Log.d(TAG, list2.get(i).getAddRess());
                     Log.d(TAG, list2.get(i).getName());
                     Log.d(TAG, "Age=" + list2.get(i).getAge());
+                    Log.d(TAG, "自增id=" + list2.get(i).getId());
+                    Log.d(TAG, "自增id=" + list2.get(i).getId());
                     Log.d(TAG, "自增id=" + list2.get(i).getId());
                 }
                 break;
