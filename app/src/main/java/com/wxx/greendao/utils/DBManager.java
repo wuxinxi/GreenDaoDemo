@@ -6,6 +6,11 @@ import com.wxx.greendao.db.InfoDao;
 
 import java.util.List;
 
+/**
+ * 作者：Tangren_ on 2017/3/23 0023.
+ * 邮箱：wu_tangren@163.com
+ * TODO:
+ */
 
 
 public class DBManager {
