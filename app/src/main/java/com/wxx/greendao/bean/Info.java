@@ -7,7 +7,7 @@ import org.greenrobot.greendao.annotation.Generated;
 /**
  * 作者：Tangren_ on 2017/3/23 0023.
  * 邮箱：wu_tangren@163.com
- * TODO:info
+ * TODO:我是测试用的哦
  */
 
 @Entity
